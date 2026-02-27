@@ -22,57 +22,53 @@
 ## Control Overview
 | Domain | Total Controls | Applicable | Excluded | Implemented | Partial | Planned |
 |--------|---------------|------------|----------|-------------|---------|---------|
-| Organizational | 37 | 35 | 2 | 28 | 7 | 0 |
-| People | 8 | 8 | 0 | 6 | 2 | 0 |
-| Physical | 14 | 12 | 2 | 10 | 2 | 0 |
-| Technological | 34 | 32 | 2 | 25 | 7 | 0 |
-| **Overall** | **93** | **87** | **6** | **69** | **18** | **0** |
+| Organizational | 41 | 27 | 14 | 19 | 9 | 3 |
+| People | 12 | 8 | 4 | 6 | 2 | 2 |
+| Physical | 16 | 10 | 6 | 7 | 2 | 1 |
+| Technological | 38 | 21 | 17 | 13 | 6 | 5 |
+| **Overall** | **107** | **66** | **41** | **45** | **19** | **11** |
 
-> **Note:** “Partial” indicates controls that are implemented but require further enhancement or monitoring.
+> **Note:** Numbers are randomized for educational and demonstration purposes.
 
 ---
 
 ## Theme 5: Organizational Controls
 | Ref | Control | Applicable | Status | Control Owner | Evidence / Notes |
 |-----|---------|------------|--------|---------------|-----------------|
-| 5.1 | Information Security Policies | Yes | Implemented | ISMS Lead | Policies approved by management, published internally |
-| 5.2 | Roles & Responsibilities | Yes | Implemented | HR & IT Dept | Roles defined in Org Chart and Job Descriptions |
-| 5.3 | Segregation of Duties | Yes | Partial | IT Security | Some overlaps exist; mitigation plan in progress |
-| 5.4 | Management Responsibilities | Yes | Implemented | Management Board | Monthly ISMS KPI reviews conducted |
-| 5.5 | Contact with Authorities | Yes | Planned | Compliance Officer | Formal communication templates under preparation |
+| 5.1 | Information Security Policies | Yes | Implemented | ISMS Lead | Policies approved and published internally |
+| 5.2 | Roles & Responsibilities | Yes | Partial | HR & IT Dept | Roles partially defined; updates ongoing |
+| 5.3 | Segregation of Duties | No | N/A | N/A | Out of scope for some functions |
+| 5.4 | Management Responsibilities | Yes | Planned | Management Board | Implementation in progress |
+| 5.5 | Contact with Authorities | Yes | Implemented | Compliance Officer | Templates created for incident reporting |
 | 5.6 | Contact with Special Interest Groups | No | N/A | N/A | Not applicable for current ISMS scope |
-| 5.7 | Threat Intelligence | Yes | Partial | IT Security | Monthly threat reports; automated alerts under development |
-| 5.8 | Security in Project Management | Yes | Implemented | Project Managers | Security checkpoints integrated in all IT projects |
-| 5.9 | Inventory of Assets | Yes | Implemented | IT Dept | Asset register maintained and reviewed quarterly |
-| 5.10 | Acceptable Use of Assets | Yes | Implemented | HR & IT | Staff trained; policies acknowledged via LMS |
+| 5.7 | Threat Intelligence | Yes | Partial | IT Security | Alerts and threat reports partially automated |
+| 5.8 | Security in Project Management | Yes | Planned | Project Managers | Security checkpoints under implementation |
 | … | … | … | … | … | … |
-
-> *(The rest of Organizational controls follow the same format; see full list in the repo for all 37 controls.)*
 
 ---
 
 ## Theme 6: People Controls
 | Ref | Control | Status | Owner | Notes / Evidence |
 |-----|--------|--------|-------|-----------------|
-| 6.1 | Employee Screening | Implemented | HR Dept | Background checks completed for all staff |
-| 6.2 | Employment Terms | Implemented | HR Dept | Security clauses in all contracts |
-| 6.3 | Security Awareness Training | Partial | ISMS Lead | Monthly training ongoing; completion logs maintained |
-| 6.4 | Disciplinary Process | Implemented | HR Dept | Policy enforced and documented |
-| 6.5 | Post-Termination Responsibilities | Implemented | IT Dept | Access revoked on employee exit |
-| 6.6 | NDA / Confidentiality Agreements | Implemented | HR Dept | Signed NDAs for all staff |
-| 6.7 | Remote Work Security | Implemented | IT Security | VPN, endpoint protection, MFA enforced |
-| 6.8 | Event Reporting | Implemented | ISMS Lead | Clear reporting channels; incident logs maintained |
+| 6.1 | Employee Screening | Implemented | HR Dept | Background checks completed |
+| 6.2 | Employment Terms | Partial | HR Dept | Contracts updated for some staff |
+| 6.3 | Security Awareness Training | Planned | ISMS Lead | Monthly training scheduled |
+| 6.4 | Disciplinary Process | Implemented | HR Dept | Policies enforced |
+| 6.5 | Post-Termination Responsibilities | Partial | IT Dept | Access revocation partially automated |
+| 6.6 | NDA / Confidentiality Agreements | Implemented | HR Dept | Signed NDAs maintained |
+| 6.7 | Remote Work Security | Planned | IT Security | VPN rollout ongoing |
+| 6.8 | Event Reporting | Implemented | ISMS Lead | Channels defined and tested |
 
 ---
 
 ## Theme 7: Physical Controls
 | Ref | Control | Status | Owner | Notes |
 |-----|---------|--------|-------|-------|
-| 7.1 | Physical Security Perimeters | Implemented | Facilities | CCTV & access control in all buildings |
-| 7.2 | Physical Entry | Implemented | Facilities | Entry restricted to authorized personnel; logs maintained |
-| 7.3 | Securing Offices & Rooms | Implemented | Facilities | Server rooms and critical areas locked & monitored |
-| 7.4 | Physical Security Monitoring | Implemented | Security Team | CCTV and patrol logs maintained |
-| 7.5 | Protection Against Environmental Threats | Partial | Facilities | Fire suppression installed; flood mitigation pending |
+| 7.1 | Physical Security Perimeters | Partial | Facilities | CCTV coverage partial |
+| 7.2 | Physical Entry | Implemented | Facilities | Access logs maintained |
+| 7.3 | Securing Offices & Rooms | Planned | Facilities | Server room upgrades pending |
+| 7.4 | Physical Security Monitoring | Implemented | Security Team | Patrols and CCTV active |
+| 7.5 | Protection Against Environmental Threats | Partial | Facilities | Fire suppression partial; flood measures pending |
 | … | … | … | … | … |
 
 ---
@@ -80,13 +76,13 @@
 ## Theme 8: Technological Controls
 | Ref | Control | Status | Owner | Implementation Notes |
 |-----|--------|--------|-------|-------------------|
-| 8.1 | Endpoint Devices | Implemented | IT Security | Antivirus, encryption, and patching applied |
-| 8.2 | Privileged Access Rights | Partial | IT Security | RBAC implemented; exceptions under review |
-| 8.3 | Information Access Restriction | Implemented | IT Security | Permissions enforced; regular audits |
-| 8.4 | Source Code Access | Implemented | Development Team | Repository permissions strictly controlled |
-| 8.5 | Secure Authentication | Implemented | IT Security | MFA enforced across all critical systems |
-| 8.6 | Capacity Management | Implemented | IT Ops | Resource monitoring dashboards active |
-| 8.7 | Malware Protection | Implemented | IT Security | EDR and AV deployed |
+| 8.1 | Endpoint Devices | Implemented | IT Security | AV and encryption deployed |
+| 8.2 | Privileged Access Rights | Partial | IT Security | RBAC implemented; review ongoing |
+| 8.3 | Information Access Restriction | Planned | IT Security | Policy under development |
+| 8.4 | Source Code Access | Implemented | Development Team | Repository access controlled |
+| 8.5 | Secure Authentication | Implemented | IT Security | MFA enabled |
+| 8.6 | Capacity Management | Partial | IT Ops | Resource monitoring partially active |
+| 8.7 | Malware Protection | Planned | IT Security | EDR deployment ongoing |
 | … | … | … | … | … |
 
 ---
@@ -95,8 +91,8 @@
 | Control Ref | Control Name | Reason | Alternative Measure |
 |-------------|-------------|--------|------------------|
 | 5.6 | Contact with Special Interest Groups | Out of scope | N/A |
-| 7.14 | Secure Disposal / Reuse of Equipment | Outsourced vendor | Vendor SLA & certificate maintained |
-| 8.12 | Data Leakage Prevention | Partial implementation | Monitoring & partial DLP in place |
+| 7.14 | Secure Disposal / Reuse of Equipment | Outsourced vendor | SLA maintained |
+| 8.12 | Data Leakage Prevention | Partial implementation | Partial DLP in place |
 
 ---
 
